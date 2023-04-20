@@ -1,0 +1,15 @@
+.dot{
+    background-color: tomato;
+    width:5px;
+    height: 5px;
+    border-radius: 2.5px;
+    position: absolute;
+}
+.dot__nav {
+    top: -10px;
+    right:-5px;
+}
+.dot__cog{
+   top:-5px;
+   right:-4px;
+}
