@@ -8,14 +8,39 @@
     box-sizing: border-box;
 }
 
-@keyframes fadeIn{
-    from
-    {   
-        transform: translateY(10px);
+@keyframes fadeInLeft{
+    0%{  
+        
+        transform: translateX(-50px);
         opacity:0;
 
     }
-    to{
+
+    90%{
+        transform: translateX(-50px);
+        opacity:0;;
+        
+    }
+    100%{
+        transform: none;
+        opacity:1;
+    }
+}
+
+@keyframes fadeInRight{
+    0%{  
+        
+        transform: translateX(50px);
+        opacity:0;
+
+    }
+
+    90%{
+        transform: translateX(50px);
+        opacity:0;;
+        
+    }
+    100%{
         transform: none;
         opacity:1;
     }
@@ -25,7 +50,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: fadeIn 0.8s linear;
 }
 
 .chatroom__color{
@@ -45,6 +69,7 @@
     width:100%;
     display: flex;
     margin-bottom: 25px;
+    animation: fadeInLeft 2s ease-out;
 }
 .message-row img{
     width: 50px;
@@ -81,6 +106,7 @@
 
 .message-row--own{
     justify-content: flex-end;
+    animation: fadeInRight 4s ease-in-out;
 }
 
 .message-row--own .message__bubble{
