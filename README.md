@@ -1,4 +1,4 @@
-# Clone-coding-practice
+# Messenger App
 
-Clone-coding practice-messenger app
+Cloned a messenger app using HTML and CSS.
 
