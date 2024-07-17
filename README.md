@@ -10,7 +10,6 @@ Kokoa Talk Messenger is a web-based messenger application that replicates the lo
 - [Usage](#usage)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact Information](#contact-information)
 
 ## Features
